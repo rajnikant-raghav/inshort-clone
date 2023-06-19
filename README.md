@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+Hoisted Link:- https://inshort-clone-ten.vercel.app/
+Inshort Clone App
+This is a README file for the Inshort Clone app, which is a web application developed using React. The app provides a simplified version of the popular Inshorts news app, allowing users to browse and read short news articles on various topics. This README file will provide an overview of the app, installation instructions, and other relevant information.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+Features
+Prerequisites
+Installation
+Usage
+Features
+The Inshort Clone app offers the following features:
 
-## Available Scripts
+Browse short news articles across different categories such as politics, sports, entertainment, technology, etc.
+Read summarized news articles that provide key information and highlights.
+Filter news articles by category or search for specific topics.
+Save articles to a reading list for future reference.
+Mark articles as read/unread to keep track of what has been read.
+Share articles with others through social media platforms.
+Responsive design for a seamless experience across devices.
+Prerequisites
+Before installing and running the app, make sure you have the following software installed on your system:
 
-In the project directory, you can run:
 
-### `npm start`
+Git (optional, for cloning the repository)
+Installation
+To install and set up the Inshort Clone app, follow these steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repository to your local machine using Git, or download the source code as a ZIP file and extract it.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+https://github.com/rajnikant-raghav/inshort-clone/
+Navigate to the project directory.
 
-### `npm test`
+bash
+Copy code
+cd inshort-clone
+Install the required dependencies using npm.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Copy code
+npm install
+Usage
+To start the app, run the following command from the project directory:
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Once the app is running, you can start browsing and reading the news articles. Use the navigation menu to switch between categories or search for specific topics. You can save articles to your reading list, mark them as read/unread, and share them with others.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to explore the app and customize it according to your needs. The source code is located in the src directory, and you can make changes to the components, styles, or any other aspects of the app.
