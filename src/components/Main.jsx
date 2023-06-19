@@ -56,7 +56,7 @@ const Main = ({ newsData }) => {
         }}>Load More</div>
         <div className="made_by">
           <div className="author">Inshorts clone made by - Rajnikant Raghav</div>
-          <hr />
+          <hr /> 
           <div className="social_media">
             <a href="https://www.instagram.com/rk_raghav_9211/" target="blank">
               <i className="fa-brands fa-instagram"></i>
