@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import { fetchData } from "./newsData/data";
+import Navbar from "./components/Navbar";
+import Main from "./components/Main";
+import Links from "./components/Links";
 
-function App() {
+const App = () => {
+  const [category, setCategory] = useState("headlines");
+  const [newsData, setNewsData] = useState("");
+
+  useEffect(() => {
+    setNewsData(fetchData(category.toLowerCase()));
+  }, [category]);
+  // console.log(newsData[3].description)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar setCategory={setCategory} />
+      <Links/>
+      <Main newsData={newsData} />
     </div>
   );
-}
+};
 
 export default App;
